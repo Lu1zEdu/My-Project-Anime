@@ -9,8 +9,4 @@ header{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     display: flex;
     background-color: rgb(13, 13, 102);
-    #link{
-        flex-grow: auto;
-        list-style-type: none;
-    }
 }
