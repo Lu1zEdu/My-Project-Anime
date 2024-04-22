@@ -1,70 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/Style.css">
-    <title>Home</title>
+    <title>Anime Network</title>
+    <!-- Adicionar CSS externo para manter o HTML limpo -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header id="header">
-        <h1>Anime.com</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./Page/News.htm">News</a>
-                    <a href="./Page/Reviews.html">Reviews</a>
-                    <a href="./Page/Reviews.html">My Animes</a>
-                </li>
-            </ul>
-        </nav>
-        <form>
-            <div>
-                <input type="text" name="Pesquisa" id="idPesquisa" placeholder="Pesquisar um anime">
-            </div>
-        </form>
+    <header>
+        <h1>Anime Network</h1>
     </header>
-    <main>
-        <section>
-            <div>
-                <img src="" alt="#">
-                <h2>
-                    Anime Favorito da temporada
-                </h2>
-                <p>
-                    Resumo do anime
-                </p>
-            </div>
-            <div>
-                <div>
-                   <p>
-                        Lista de Animes mais vistos
-                    </p> 
-                </div>
-                <div>
-                   <p>
-                        Lista de Mangas mais lidos
-                    </p> 
-                </div>
-                <div>
-                   <p>
-                        Recomendações
-                    </p> 
-                </div>
-            </div>
-        </section>
-    </main>
+
+    <nav>
+        <ul>
+            <li><a href="#news">News</a></li>
+            <li><a href="#anime">Anime</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#search">Search for your fave anime</a></li>
+        </ul>
+    </nav>
+
+    <section id="news">
+        <h2>News</h2>
+        <p>Kill la Kill: New episodes announced today!</p>
+        <p>The team that brought you Gurren Lagann and Panty & Stocking reunited to present what is looking to be one of the most over the top action series in a long time!</p>
+        <!-- Adicionar imagem e link para leitura completa -->
+        <a href="read-more.html"><img src="kill-la-kill.jpg" alt="Kill la Kill"></a>
+    </section>
+
+    <section id="anime">
+        <h2>Anime</h2>
+        <ul>
+            <li><a href="#strike-the-blood">Strike the Blood</a></li>
+            <li><a href="#samurai-flamenco">Samurai Flamenco</a></li>
+            <li><a href="#world-conquest-zvezda">World Conquest Zvezda</a></li>
+            <!-- Adicionar mais opções aqui -->
+        </ul>
+    </section>
+
+    <section id="reviews">
+        <h2>Reviews</h2>
+        <ul>
+            <li><a href="#akuma-no-riddle">Akuma no Riddle</a></li>
+            <li><a href="#free-eternal-summer">Free! Eternal Summer</a></li>
+            <li><a href="#black-bullet">Black Bullet</a></li>
+            <!-- Adicionar mais opções aqui -->
+        </ul>
+    </section>
+
+    <section id="search">
+        <h2>Search for your fave anime</h2>
+        <!-- Adicionar formulário de pesquisa -->
+        <form action="#">
+            <input type="text" placeholder="Search">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
     <footer>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Contato</a>
-                    <a href="#">Redes Socais</a>
-                    <a href="#">Help</a>
-                    <a href="#">About</a>
-                </li>
-            </ul>
-        </nav>
+        <p>© 2023 Anime Network</p>
     </footer>
+
+    <!-- Adicionar JavaScript externo para manter o HTML limpo -->
+    <script src="scripts.js"></script>
 </body>
-</html>
+</html> 
